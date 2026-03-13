@@ -63,7 +63,7 @@ const StandCircleView = ({seletedDate}) => {
 
 
   return (
-      <View style={{width:275, height:275, marginTop:10,borderRadius:137.5,backgroundColor:'rgb(245, 230, 242)', justifyContent:'center', alignItems:'center', gap:12, overflow:'hidden'}}>
+      <View style={{width:275, height:275, marginTop:10,borderRadius:137.5,backgroundColor:MyColors.CIRCLE_COLOR, justifyContent:'center', alignItems:'center', gap:12, overflow:'hidden'}}>
 
 <View style={{width:'100%', alignItems:'center', gap:18}}>
 <Text style={{color: isPeriod ? 'tomato' : MyColors.DARK_BLUE, fontSize:15, fontFamily:'Outfit-Light', textAlign:'center'}}>{text?.secondaryText}</Text>

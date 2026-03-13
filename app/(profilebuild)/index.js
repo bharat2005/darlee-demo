@@ -14,6 +14,7 @@ import NextButton from '../../src/components/ProfileBuild/NextButton'
 import { KeyboardAvoidingView } from 'react-native'
 import { useAuth } from '../../src/contexts/AuthContextProvider'
 import IndexIndicator from '../../src/components/Shared/IndexIndicator'
+import MyColors from '../../src/constants/MyColors'
 
 
 const steps = [Name, DOB, Period, Symptom, Interest, Concious, Control, End]
@@ -56,7 +57,7 @@ const ProfileBuild = () => {
 
    
     <SafeAreaView style={{ flex:1, width:'100%', paddingTop:18}}>
-        <Image source={require('../../assets/images/onboardBack.jpg')} style={{position:'absolute', top:0, left:0, right:0, bottom:0, opacity:0.6}} />
+        <View style={{position:'absolute',backgroundColor:MyColors.LIGHT_PRIMARY, top:0, left:0, right:0, bottom:0, opacity:0.6}} />
 
         <IndexIndicator arrayLength={steps.length} currentIndex={currentIndex} />
 

@@ -1,8 +1,8 @@
 export default {
     DARK_GREY: '#0e2b31',
     PRIMARY: '#8c52ff',
-    LIGHT_PRIMARY: '#c9adff',
-    
+    LIGHT_PRIMARY: '#c8adff',
+    CIRCLE_COLOR : '#f5f0ff',
     LIGHT_PINK :'#fff3f7',
     LIGHT_PURPLE :'#f8f3f7',
     DARK_BLUE:'#1C2141',
@@ -11,7 +11,7 @@ export default {
     FOLICULAR_COLOR:'rgb(60, 177, 255)',
     OVULATION_COLOR:'rgba(0, 223, 231, 0.94)',
     LUTEAL_COLOR:'rgb(160, 160, 160)',
-    CHAT_BOX_PINK:'#FFECEE',
+    CHAT_BOX_PINK:'#e4d6ff',
     SELF_CARE_BOTTOM:'rgb(255, 217, 221)',
     HORMONE_TOP: 'rgb(255, 219, 219)',
     HORMONE_BOTTOM: 'rgb(255, 232, 193)',

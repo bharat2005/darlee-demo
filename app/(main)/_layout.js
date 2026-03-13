@@ -3,8 +3,6 @@ import React from 'react'
 import { Tabs } from 'expo-router'
 import { Feather, FontAwesome5, Ionicons, Octicons } from '@expo/vector-icons'
 import MyColors from '../../src/constants/MyColors'
-import LoveLogo from '../../assets/svgs/LoveLogo'
-import { LinearGradient } from 'expo-linear-gradient'
 
 const MainLayout = () => {
   return (
@@ -30,18 +28,6 @@ tabBarLabelStyle:{fontSize:10, fontFamily:'Outfit-Light'}
 }} />
 
 
-<Tabs.Screen name='love' 
-options={{
-   tabBarIcon:({color, size})=> (
-  <View style={{height:60, width:60,  position:'absolute', bottom:4 }}>
-    <LinearGradient colors={['rgb(255, 180, 180)', 'rgb(255, 215, 147)']} start={{x:0, y:0}} end={{x:1, y:1}} style={{height:'100%', width:'100%', borderRadius:30,}}>
-       <LoveLogo color={'rgb(45, 51, 88)'} />
-    </LinearGradient>
-    </View>),
-    tabBarLabel:'Love',
-    tabBarLabelStyle:{fontSize:10, fontFamily:'Outfit-Light'}
-  
-  }} />
 
 
 

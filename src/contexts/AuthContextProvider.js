@@ -17,7 +17,7 @@ const AuthContextProvider = ({children}) => {
   useEffect(()=> {
 
    setTimeout(()=> {
-    router.replace('/start')
+    router.replace('/(main)/home')
     SplashScreen.hideAsync()
    }, 300)
     // const unsub = onAuthStateChanged(auth, async(u)=> {
@@ -88,7 +88,7 @@ const AuthContextProvider = ({children}) => {
 
   const emailRegister = async(email, password) => {
     try{
-      if(email !== 'itsForSomeoneSpecial@gmail.com' && password !== 'soSpecial'){
+      if(email !== 'bharatvdeshm2005@gmail.com' && password !== 'bharat2005'){
         Alert.alert("Please use the correct email and password", "This email and password is not valid, please register/login with the correct email and password provided")
         return
       } 
@@ -127,7 +127,7 @@ const AuthContextProvider = ({children}) => {
   const emailLogin = async(email, password) =>{
     try{  
 
-      if(email !== 'itsForSomeoneSpecial@gmail.com' && password !== 'soSpecial'){
+      if(email !== 'bharatvdeshm2005@gmail.com' && password !== 'bharat2005'){
         Alert.alert("Please use the correct email and password", "This email and password is not valid, please register/login with the correct email and password provided")  
         return
       } 

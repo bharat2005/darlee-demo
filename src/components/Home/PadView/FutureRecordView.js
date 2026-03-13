@@ -37,7 +37,7 @@ const FutureRecordView = ({selectedDate}) => {
 
   if(isLoading) {
     return (
-<View style={{width:'84%', marginHorizontal:'auto', backgroundColor:MyColors.LIGHT_PURPLE, borderRadius:44,flex:1, marginVertical:16, justifyContent:'center', alignItems:'center', padding:8, paddingVertical:0, gap:8}}>
+<View style={{width:'84%', marginHorizontal:'auto', backgroundColor:MyColors.CIRCLE_COLOR, borderRadius:44,flex:1, marginVertical:16, justifyContent:'center', alignItems:'center', padding:8, paddingVertical:0, gap:8}}>
 <ActivityIndicator size='large' color={MyColors.DARK_BLUE} />
 </View>
     )
@@ -45,7 +45,7 @@ const FutureRecordView = ({selectedDate}) => {
 
 
   return (
-<View style={{width:'84%', marginHorizontal:'auto', backgroundColor:MyColors.LIGHT_PURPLE, borderRadius:44,flex:1, marginVertical:16, justifyContent:'center', alignItems:'center', padding:8, paddingVertical:0, gap:8}}>
+<View style={{width:'84%', marginHorizontal:'auto', backgroundColor:MyColors.CIRCLE_COLOR, borderRadius:44,flex:1, marginVertical:16, justifyContent:'center', alignItems:'center', padding:8, paddingVertical:0, gap:8}}>
 <Text style={{color:MyColors.DARK_BLUE, fontSize:16, fontFamily:'Outfit-Medium', textAlign:'center', position:'absolute', top:18}}>Mood Forecast</Text>
   <IconsPreview array={predictions ? Object.values(predictions) : []} />
 
