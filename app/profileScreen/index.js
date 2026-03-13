@@ -13,7 +13,7 @@ const ProfileScreen = () => {
 
   return (
     <SafeAreaView style={{flex:1}}>
-        <ScreenHeader title={user?.name} />
+        <ScreenHeader title={"Profile"} />
 
         <MySectionList user={user} />
         

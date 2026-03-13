@@ -8,13 +8,13 @@ export const useCurrentUser = () => {
             // const res = await getDoc(doc(db, 'users', auth.currentUser?.uid))
             // return res.data() || {}
             return {
-                name: 'SomeoneSpecial',
-                email: 'itsforsomeonespecial@gmail.com',
+                name: 'bharat',
+                email: 'bharatvdeshm2005@gmail.com',
                 profilePic: 'https://via.placeholder.com/150',
                 hasCompletedOnboarding: true,
                 createdAt: new Date(),
                 updatedAt: new Date(),
-                uid: 'SOMEONESPECIAL_L0V3U'
+                uid: 'BHARAT_2005'
             }
         },
         //enabled: !!auth.currentUser?.uid
