@@ -8,7 +8,7 @@ export default {
     "slug": "darlee",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/leg.png",
+    "icon": "./assets/images/icon.png",
     "scheme": "darlee",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -17,8 +17,8 @@ export default {
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/leg.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#8c52ff"
       },
       "edgeToEdgeEnabled": true,
       "package": "com.bharat2005.darlee"
@@ -33,10 +33,10 @@ export default {
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/leg.png",
+          "image": "./assets/images/icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#8c52ff"
         }
       ],
       "expo-font",

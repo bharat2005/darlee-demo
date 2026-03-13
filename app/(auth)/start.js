@@ -21,20 +21,21 @@ const Start = () => {
 
 
   return (
-    <SafeAreaView style={{flex:1, paddingTop:120, backgroundColor:'white'}}>
-      <MyVideoView />
+    <SafeAreaView style={{flex:1, paddingTop:120, backgroundColor:MyColors.LIGHT_PRIMARY}}>
 
 <View style={{width:'100%', justifyContent:'center', alignItems:'center', marginBottom:28}}>
 
-  <Flower height={60} widthP={60} color={'white'} />
+  <Flower height={80} widthP={80} color={'white'} />
 
 </View>
 
 <View style={{width:'100%', justifyContent:'center', alignItems:'center', paddingHorizontal:14, gap:18}}>
-<Text style={{fontFamily:'Outfit-Regular', fontSize:18, color:'black', textAlign:'center'}}>
-Built with love, not just logic
+<Text style={{fontFamily:'Outfit-Regular', fontSize:18, color:MyColors.DARK_BLUE, textAlign:'center'}}>
+Smart insights for your mind and body
   </Text>
-  <Text style={{fontFamily:'Outfit-Medium', fontSize:34, color:'black', textAlign:'center', paddingHorizontal:24}}>Made Soft for Your Stormy Days </Text>
+  <Text style={{fontFamily:'Outfit-Medium', fontSize:32, color:MyColors.DARK_BLUE, textAlign:'center', paddingHorizontal:24}}>
+Where Mental Wellness. Meets Cycle Care...
+    </Text>
 
 </View>
 

@@ -1,7 +1,8 @@
 export default {
     DARK_GREY: '#0e2b31',
-    PRIMARY: '#f9a8a7',
-    LIGHT_PRIMARY: '#FFC4C3',
+    PRIMARY: '#8c52ff',
+    LIGHT_PRIMARY: '#c9adff',
+    
     LIGHT_PINK :'#fff3f7',
     LIGHT_PURPLE :'#f8f3f7',
     DARK_BLUE:'#1C2141',

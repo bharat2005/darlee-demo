@@ -30,7 +30,7 @@ const Read = () => {
 
   return (
     <SafeAreaView style={{flex:1, paddingTop:180}} >
-                <Image source={require('../../assets/images/onboardBack.jpg')} style={{position:'absolute', top:0, left:0, right:0, bottom:0, opacity:0.6}} />
+                <View  style={{position:'absolute', top:0, left:0, right:0, bottom:0, opacity:0.6, backgroundColor:MyColors.LIGHT_PRIMARY}} />
 
 <View style={{width:'100%', justifyContent:'center', alignItems:'center', gap:30, paddingHorizontal:20,}}>
 
@@ -49,7 +49,7 @@ const Read = () => {
         navigationRef.current = true
         router.push({pathname:'/textScreen', params:{id:'terms'}})
     }}
-    style={{backgroundColor:readTerms ? MyColors.DARK_GREY : 'rgb(222, 222, 222)'}}
+    style={{backgroundColor:readTerms ? MyColors.DARK_GREY : 'rgb(236, 236, 236)'}}
     theme={{roundness:2}}
     labelStyle={{fontFamily:'Outfit-Regular', fontSize:16, color:readTerms ? 'white' : 'rgb(167, 167, 167)'}}
     >
@@ -67,7 +67,7 @@ const Read = () => {
     router.push({pathname:'/textScreen', params:{id:'privacy'}})
 }}
 theme={{roundness:2}}
-style={{backgroundColor:readPrivacy ? MyColors.DARK_GREY : 'rgb(222, 222, 222)'}}
+style={{backgroundColor:readPrivacy ? MyColors.DARK_GREY : 'rgb(236, 236, 236)'}}
 labelStyle={{fontFamily:'Outfit-Regular', fontSize:16, color:readPrivacy ? 'white' : 'rgb(167, 167, 167)'}}
 >
     Privacy Policy
@@ -88,7 +88,7 @@ labelStyle={{fontFamily:'Outfit-Regular', fontSize:16, color:readPrivacy ? 'whit
             markPrivacy(false)
         }}
         disabled={!(readPrivacy && readTerms)}
-        style={{backgroundColor: readPrivacy && readTerms ? MyColors.DARK_GREY : 'rgb(222, 222, 222)', height:44}}
+        style={{backgroundColor: readPrivacy && readTerms ? MyColors.DARK_GREY : 'rgb(236, 236, 236)', height:44}}
         theme={{roundness:2}}
         contentStyle={{height:44}}
         labelStyle={{fontFamily:'Outfit-Regular', fontSize:16, color:readPrivacy && readTerms ? 'white' : 'rgb(167, 167, 167)'}}
