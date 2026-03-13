@@ -21,7 +21,11 @@ const Start = () => {
 
 
   return (
-    <SafeAreaView style={{flex:1, paddingTop:120, backgroundColor:MyColors.LIGHT_PRIMARY}}>
+ 
+    <SafeAreaView style={{flex:1, paddingTop:120, backgroundColor:'rgba(201, 173, 255, 0.6)'}}>
+
+
+      
 
 <View style={{width:'100%', justifyContent:'center', alignItems:'center', marginBottom:28}}>
 
@@ -73,6 +77,7 @@ Already have an account?
     
 
     </SafeAreaView>
+    
   )
 }
 
